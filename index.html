@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="1024">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kebajikan Pelajar</title>
     <link rel="icon" type="image/png" href="assets/icon_jpk.png"> <!-- Favicon Link -->
     <style>
@@ -147,14 +147,14 @@
             background-color: #5a1f63;
         }
 
-         /* Styles for date, time, and day */
-         .datetime-container {
+        /* Styles for date, time, and day */
+        .datetime-container {
             text-align: right;
             font-size: 16px;
             color: #333;
-            margin-bottom: 20px;
-            padding-right: 20px;
-            margin-left: 1280px;
+            position: absolute;
+            top: 75px;
+            right: 10px;
         }
 
         #currentDate, #currentTime {
@@ -176,8 +176,6 @@
 
 <div class="schedule-header">
     KEBAJIKAN PELAJAR
-     <!-- Home Button -->
-     <!-- <a href="menu.php" class="home-button">Home</a> -->
 </div>
 
 <div class="datetime-container">
@@ -230,8 +228,6 @@
             <img id="modalImage" src="">
         </div>
     </div>
-
-
 
 <script>
     // Modal functionality
